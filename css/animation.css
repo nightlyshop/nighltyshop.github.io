@@ -1,0 +1,104 @@
+@keyframes come { /*animation: come 2s 1 ease-in-out;*/
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes slider-one { /*animation: come 2s 1 ease-in-out;*/
+	from { background-image: url(../img/sell1.jpg); opacity: 1 }
+	12% {  background-image: url(../img/sell1.jpg); opacity: 1; }
+
+	15% { opacity: 0; background-color: #fff; }
+	18% { opacity: 0; background-color: #fff; background-image: url(../img/sell1-1.jpg); }
+
+	20% { background-image: url(../img/sell1-1.jpg); opacity: 1 }
+	30% {  background-image: url(../img/sell1-1.jpg); opacity: 1; }
+
+	35% { opacity: 0; background-color: #fff; }
+	38% { opacity: 0; background-color: #fff; background-image: url(../img/sell1-2.jpg); }
+
+	40% { background-image: url(../img/sell1-2.jpg); opacity: 1 }
+	52% {  background-image: url(../img/sell1-2.jpg); opacity: 1; }
+
+	55% { opacity: 0; background-color: #fff; }
+	57% { opacity: 0; background-color: #fff; background-image: url(../img/sell1-3.jpg); }
+
+	60% { background-image: url(../img/sell1-3.jpg); opacity: 1 }
+	72% {  background-image: url(../img/sell1-3.jpg); opacity: 1; }
+
+	75% { opacity: 0; background-color: #fff; }
+	78% { opacity: 0; background-color: #fff; background-image: url(../img/sell1.jpg); }
+
+	80% { background-image: url(../img/sell1.jpg); opacity: 1 }
+	92% { background-image: url(../img/sell1.jpg); opacity: 1 }
+	to { background-image: url(../img/sell1.jpg); opacity: 1  }
+}
+
+@keyframes slider-two { /*animation: come 2s 1 ease-in-out;*/
+	from { background-image: url(../img/sell2.jpg); opacity: 1 }
+	22% {  background-image: url(../img/sell2.jpg); opacity: 1; }
+
+	25% { opacity: 0; background-color: #fff; }
+	28% { opacity: 0; background-color: #fff; background-image: url(../img/sell2-1.jpg); }
+
+	30% { background-image: url(../img/sell2-1.jpg); opacity: 1 }
+	50% {  background-image: url(../img/sell2-1.jpg); opacity: 1; }
+
+	55% { opacity: 0; background-color: #fff; }
+	58% { opacity: 0; background-color: #fff; background-image: url(../img/sell2-2.jpg); }
+
+	60% { background-image: url(../img/sell2-2.jpg); opacity: 1 }
+	78% {  background-image: url(../img/sell2-2.jpg); opacity: 1; }
+
+	80% { opacity: 0; background-color: #fff; }
+	83% { opacity: 0; background-color: #fff; background-image: url(../img/sell2-3.jpg); }
+
+
+	87% { background-image: url(../img/sell2.jpg); opacity: 1 }
+	95% { background-image: url(../img/sell2.jpg); opacity: 1 }
+	to { background-image: url(../img/sell2.jpg); opacity: 1  }
+}
+
+@keyframes slider-three { /*animation: come 2s 1 ease-in-out;*/
+	from { background-image: url(../img/sell3.jpg); opacity: 1 }
+	22% {  background-image: url(../img/sell3.jpg); opacity: 1; }
+
+	25% { opacity: 0; background-color: #fff; }
+	28% { opacity: 0; background-color: #fff; background-image: url(../img/sell3-1.jpg); }
+
+	30% { background-image: url(../img/sell3-1.jpg); opacity: 1 }
+	50% {  background-image: url(../img/sell3-1.jpg); opacity: 1; }
+
+	55% { opacity: 0; background-color: #fff; }
+	58% { opacity: 0; background-color: #fff; background-image: url(../img/sell3-2.jpg); }
+
+	60% { background-image: url(../img/sell3-2.jpg); opacity: 1 }
+	78% {  background-image: url(../img/sell3-2.jpg); opacity: 1; }
+
+	80% { opacity: 0; background-color: #fff; }
+	83% { opacity: 0; background-color: #fff; background-image: url(../img/sell3-3.jpg); }
+
+
+	87% { background-image: url(../img/sell3.jpg); opacity: 1 }
+	95% { background-image: url(../img/sell3.jpg); opacity: 1 }
+	to { background-image: url(../img/sell3.jpg); opacity: 1  }
+}
+
+.menu, .plus, .copyright__text {
+	animation: come 2s 1 ease-in-out;
+}
+
+.footer__text, .footer__link, .banner__h, .banner__button, .adress {
+	animation: come 1s 1 ease-in-out;
+}
+
+.product-1 {
+	animation: slider-one 25s infinite ease-in-out;
+}
+
+.product-2 {
+	animation: slider-two 25s infinite ease-in-out;
+}
+
+.product-3 {
+	animation: slider-three 25s infinite ease-in-out;
+}

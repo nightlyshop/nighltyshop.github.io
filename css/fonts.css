@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto+Slab:400|Roboto:300,400,500');
+
+.menu__logo {
+	font-family: "Dancing Script";
+	font-size: 36px;
+	line-height: 70px;
+}
+
+.menu__link a {
+	font-family: "Roboto";
+	font-weight: 500;
+	letter-spacing: 0.025em;
+	font-size: 24px;
+}
+
+.menu__link {
+	line-height: 70px;
+}
+
+.banner__h {
+	font-family: "Roboto Slab";
+	letter-spacing: 0.05em;
+	font-size: 30px;
+	color: #fff
+}
+
+.banner__button {
+	color: #7889a0;
+	font-family: "Roboto";
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+}
+
+
+.adress__info {
+	display: inline-block;
+	margin-bottom: 10px;
+	color: #eeeff0;
+	font-family: "Roboto";
+	font-size: 30px;
+	letter-spacing: 0.01em;
+	font-weight: 500;
+}
+
+.adress__text {
+	color: #eeeff0;
+	font-family: "Roboto";
+	font-size: 21px;
+	letter-spacing: 0.01em;
+	font-weight: 400;
+}
+
+.copyright__text {
+	font-size: 20px;
+	color: #b3bdc9;
+	font-family: "Roboto";
+	font-weight: 300;
+
+}
+
+.site {
+	font-size: 14px;
+	color: #b3bdc9;
+
+
+}
+
+.plus__h {
+	font-size: 30px;
+	font-family: "Roboto Slab";
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+.product__h {
+	font-size: 30px;
+	font-family: "Roboto";
+	color: #4c5765;
+	font-weight: 500;
+}
+
+.product__text {
+	font-style: normal;
+	font-size: 24px;
+	font-family: "Roboto";
+	color: #4c5765;
+	font-weight: 400;
+}
+
+.product__after {
+	font-size: 20px;
+	font-family: "Roboto";
+	color: #4c5765;
+	font-weight: 300;
+}
+
+.product__button {
+	font-size: 30px;
+	font-family: "Roboto Slab";
+	color: #fff;
+	font-weight: 400;
+
+}
+
+
+@media all and (max-width: 419px){
+
+	.menu__logo {
+		font-size: 26px;
+	}
+	
+	.menu__link a {
+		font-size: 20px;
+
+	}
+
+	.product__h {
+	font-size: 20px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.product__text {
+	font-size: 16px;
+}
+
+.product__after {
+	font-size: 14px;
+}
+
+.product__button {
+	font-size: 20px;
+}
+
+}
+
+@media all and (max-width: 322px){
+
+	.menu__logo {	
+		line-height: 36px;
+		text-align: center;
+	}
+
+}

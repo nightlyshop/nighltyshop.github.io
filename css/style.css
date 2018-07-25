@@ -1,0 +1,185 @@
+.body {
+	background-color: #fafafa;
+}
+
+.header {
+	background-color: #f1f1f1;
+	background-image: url(../img/header-bg.png);
+	height: 420px;
+	background-position: 60% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-bottom: 40px solid #7889a0;
+		-webkit-box-shadow: 0px 40px 25px 5px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 40px 25px 5px rgba(0,0,0,0.25);
+box-shadow: 0px 40px 25px 5px rgba(0,0,0,0.25);
+}
+
+.menu {
+	height: 80px;
+	background-color: rgba(120,137,160,0.9);
+	line-height: 80px;
+
+
+}
+
+.menu__logo	{
+	padding-left: 25px;
+	text-align: left;
+	color: #fff;
+}
+
+.menu__link	{
+	padding-right: 25px;
+	text-align: right;
+	color: #fff;
+}
+
+.menu__link a {
+	color: #fff;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #fff;
+}
+
+.h {
+	text-align: center;
+	margin: 0;
+}
+
+.banner__h {
+	height: auto;
+	line-height: 30px;
+	margin: 50px auto;
+
+}
+
+.banner__button {
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #7889a0;
+	background-color: #fff;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.plus-block {
+	height: auto;
+	background-color: #b3bdc9;
+
+}
+
+.plus {
+	height: auto;
+	margin: 60px auto;
+
+}
+
+.sell {
+	background-color: #d9dddf;
+	height: auto;
+		-webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.15);
+}
+
+.product {
+	background-color: #eeeff0;
+	height: auto;
+	margin: 60px auto;
+	padding: 0;
+}
+
+.contact {
+	min-height: 160px;
+	height: auto;
+	background-color: #4c5765;
+			-webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.15);
+
+
+}
+
+.adress {
+	height: auto;
+	margin: 20px auto;
+		text-align: center;
+
+}
+
+.footer {
+	background-color: #3e4651;
+	min-height: 100px;
+	height: auto;
+
+}
+
+.copyright__text {
+	text-align: center;
+	padding-top: 30px ;
+	height: auto;
+}
+
+.copyright__link {
+	padding-top: 0;
+	margin-bottom: 10px;
+}
+
+.site {
+	text-align: center;
+	
+}
+
+.plus__img {
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+
+}
+
+.product__img {
+	height: 300px;
+	width: 100%;
+	background-image: url(../img/sell1.jpg);
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-bottom: 10px solid #b3bdc9;
+}
+
+.product__h {
+	display: block;
+	height: 40px;
+	margin: 20px 0;
+	padding: 0 20px 0 20px;
+}
+
+.product__text {
+	display: block;
+	height: auto;
+	line-height: 30px;
+	padding: 0 20px 0 20px;
+}
+
+.product__after {
+	display: block;
+	height: auto;
+	margin: 20px auto;
+	padding: 0 30px 0 20px;
+}
+
+.product__button {
+	display: block;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #b3bdc9;
+}
+
+.product-4 {
+	background-image: url(../img/sell4.jpg);
+}
